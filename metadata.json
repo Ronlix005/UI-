@@ -1,0 +1,7 @@
+{
+  "name": "Wireframe iPhone 15 App",
+  "description": "Applicazione mobile wireframe in bianco e nero in formato iPhone 15 con navigazione tra Pagina 1 e Pagina 2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

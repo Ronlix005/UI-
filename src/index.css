@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .wireframe-grid {
+    background-size: 20px 20px;
+    background-image: 
+      linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  }
+
+  .wireframe-grid-dense {
+    background-size: 10px 10px;
+    background-image: 
+      linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  }
+
+  .wireframe-dots {
+    background-size: 24px 24px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 1px, transparent 1px);
+  }
+
+  .wireframe-sketch-shadow {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .wireframe-sketch-shadow-sm {
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+}
+
+/* Custom scrollbar if any */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
